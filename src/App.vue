@@ -1,28 +1,42 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <navbar/>
+    <heading/>
+    <sectionone/>
+    <sectiontwo/>
+    <sectionthree/>
+    <lastsection/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import navbar from './components/navbar.vue'
+import heading from './components/heading.vue'
+import sectionone from './components/sectionone.vue'
+import sectiontwo from './components/sectiontwo.vue'
+import sectionthree from './components/sectionthree.vue'
+import lastsection from './components/lastsection.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    navbar,
+    heading,
+    sectionone,
+    sectiontwo,
+    sectionthree,
+    lastsection,
   }
 }
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: "Jost", sans-serif;}
+
+*{
+  margin: 0;
+  padding: 0;
 }
 </style>
