@@ -4,7 +4,7 @@
              <a class="navbar-brand" href="#"><img class="designo" src="../assets/logo-dark.png" alt=""></a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav ml-auto">
@@ -43,6 +43,9 @@
     .designo{
     width: 12rem;
 }
+/* .nav-link{
+    padding: 0 !important;
+} */
  }
 
 </style>
